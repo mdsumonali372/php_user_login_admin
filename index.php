@@ -54,5 +54,13 @@ if(isset($_POST['submit'])){
     ?>
 
     </h1>
+      <script> 
+
+    if(window.history.replaceState){
+        window.history.replaceState(null, null, window.location.href);
+    }
+    
+    
+    </script>
 </body>
 </html>
